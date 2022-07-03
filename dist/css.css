@@ -1,5 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;1,300&display=swap');
+
+:root {
+    --var-gamebackground: #2E2E33;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: #333;
+    background: var(--var-gamebackground);
+    text-align: center;
+    color: #FFF;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 12px;
+}
+
+a {
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+#gameholder {
+    background: var(--var-gamebackground);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -480px;
+    margin-top: -270px;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#gameholder > * {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: var(--var-gamebackground);
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 300px;
+    left: 50%;
+    z-index: 0;
+    margin-left: -150px;
+    text-align: center;
+    color: rgba(255,255,255,0.2);
+}
+
+@media only screen and (max-height: 650px){
+    footer {
+        display: none;
+    }
 }
