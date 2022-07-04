@@ -1,10 +1,10 @@
 import { Texture } from '@pixi/core'
-import { TilingSprite } from '@pixi/sprite-tiling'
+import { Sprite } from '@pixi/sprite'
 
-export default class Background extends TilingSprite  {
+export default class Board extends Sprite  {
     constructor(imageReference: string) {
         const texture = Texture.from(imageReference)
-        super(texture, 1, texture.height)
+        super(texture)
     }
 
     onResize(width: number, height: number) {
@@ -12,7 +12,7 @@ export default class Background extends TilingSprite  {
         this.y = height - this.height + 160
     }
 
-    onUpdate(delta: number, speed: number = 1) {
-        this.tilePosition.x -= delta * speed
+    onUpdate(delta: number) {
+
     }
 }

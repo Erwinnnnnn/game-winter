@@ -20,6 +20,7 @@
     "watchify": "^4.0.0"
   },
   "dependencies": {
+    "@pixi/layers": "^1.0.11",
     "@types/pixi.js": "^5.0.0"
   }
 }

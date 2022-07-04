@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;1,300&display=swap');
 
 :root {
-    --var-gamebackground: #2E2E33;
+    --var-gamebackground: #29292f;
 }
 
 body {
@@ -33,6 +33,13 @@ a:hover {
     z-index: 1;
     overflow: hidden;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 980px){
+    #gameholder {
+        margin-left: -360px;
+        margin-top: -202.5px;
+    }
 }
 
 #gameholder > * {
