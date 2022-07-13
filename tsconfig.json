@@ -3,6 +3,9 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "target": "es5",
+    "lib": "es2015",
     "esModuleInterop": true
+//    "typeRoots" : ["node_modules/pixi.js"],
+//    "types" : ["pixi.js", "@types/offscreencanvas"]
   }
 }

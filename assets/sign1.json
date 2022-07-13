@@ -1,0 +1,61 @@
+{"frames":
+	{
+		"sign1":
+		{
+			"frame": {"x":0,"y":0,"w":200,"h":400},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":200,"h":400},
+			"sourceSize": {"w":200,"h":400}
+		},
+		"sign2":
+		{
+			"frame": {"x":200,"y":0,"w":200,"h":400},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":200,"h":400},
+			"sourceSize": {"w":200,"h":400}
+		},
+		"sign3":
+		{
+			"frame": {"x":400,"y":0,"w":200,"h":400},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":200,"h":400},
+			"sourceSize": {"w":200,"h":400}
+		},
+		"sign4":
+		{
+			"frame": {"x":600,"y":0,"w":200,"h":400},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":200,"h":400},
+			"sourceSize": {"w":200,"h":400}
+		},
+		"sign5":
+		{
+			"frame": {"x":800,"y":0,"w":200,"h":400},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":200,"h":400},
+			"sourceSize": {"w":200,"h":400}
+		},
+		"sign6":
+		{
+			"frame": {"x":1000,"y":0,"w":200,"h":400},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":200,"h":400},
+			"sourceSize": {"w":200,"h":400}
+		}
+	},
+	"meta": {
+		"image": "../assets/sign1/sign1.png",
+		"format": "RGBA8888",
+		"size": {"w":1200,"h":400},
+		"scale": "1"
+	},
+	"animations": {
+		"sign": ["sign1","sign2","sign3","sign4","sign5","sign6"]
+	}
+}

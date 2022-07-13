@@ -1,9 +1,8 @@
-import { Texture } from '@pixi/core'
-import { TilingSprite } from '@pixi/sprite-tiling'
+import * as PIXI from "pixi.js"
 
-export default class Background extends TilingSprite  {
+export default class Background extends PIXI.TilingSprite  {
     constructor(imageReference: string) {
-        const texture = Texture.from(imageReference)
+        const texture = PIXI.Texture.from(imageReference)
         super(texture, 1, texture.height)
     }
 
