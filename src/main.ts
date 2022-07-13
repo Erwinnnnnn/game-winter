@@ -1,4 +1,4 @@
 
-import App from './app';
+import GameController from './gamecontroller';
 
-new App();
+new GameController();
